@@ -2,12 +2,12 @@
   "name": "arcfox-theme",
   "version": "3.0.0",
   "description": "Theme for the ArcFox extension.",
+  "author": "BetterBrowser",
+  "license": "MIT",
   "scripts": {
     "compile": "sass src/index.scss userChrome.css --no-source-map",
     "update:linux": "bun compile && cp userChrome.css ~/.mozilla/firefox/*.default/chrome/"
   },
-  "author": "BetterBrowser",
-  "license": "MIT",
   "devDependencies": {
     "sass": "^1.69.0"
   }

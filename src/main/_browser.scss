@@ -1,11 +1,11 @@
 @import "../variables";
 
 #browser {
-  padding: 0 $measure $measure $measure;
+  padding: 0 $spacing $spacing $spacing;
   background-color: $color-background;
 
   #appcontent {
-    border-radius: $measure;
+    border-radius: $rounding;
     overflow: hidden;
   }
 }
