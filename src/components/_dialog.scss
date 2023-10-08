@@ -1,0 +1,15 @@
+@import "../variables";
+
+#commonDialogWindow {
+  background-color: $color-background !important;
+  padding: 4px;
+}
+
+#commonDialog {
+  background-color: $color-background-secondary;
+  border-radius: 4px;
+}
+
+#titleContainer span.titleIcon {
+  --in-content-page-background: transparent;
+}

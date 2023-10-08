@@ -1,0 +1,9 @@
+@import "../variables";
+
+#statuspanel-label {
+  background-color: $color-background !important;
+  padding: 4px 8px !important;
+  margin: 8px !important;
+  border-radius: 100px !important;
+  border: 2px solid $color-background-contrast !important;
+}

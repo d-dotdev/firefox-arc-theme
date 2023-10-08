@@ -1,3 +1,6 @@
 @use "main/navigator";
 @use "main/sidebar";
 @use "main/browser";
+
+@use "components/dialog";
+@use "components/url_widget";
