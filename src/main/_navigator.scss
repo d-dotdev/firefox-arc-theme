@@ -1,0 +1,39 @@
+@import "../variables";
+
+#titlebar {
+  display: none;
+}
+
+#navigator-toolbox {
+  // basic style and closed by default
+  height: 0;
+  border: none !important;
+  padding: calc($measure / 2) 0;
+  background-color: $color-background !important;
+  transition: height 0.35s ease;
+
+  // hide content when closed
+  & > * {
+    opacity: 0;
+    transition: opacity 0.35s ease-out;
+  }
+
+  // open on hover or focus within
+  &:is(:hover, :focus-within) {
+    height: 52px;
+
+    & > * {
+      opacity: 100%;
+    }
+  }
+}
+
+#nav-bar {
+  height: 40px;
+  box-shadow: none !important;
+  background-color: $color-background !important;
+}
+
+#urlbar {
+  --urlbar-toolbar-height: 40px !important;
+}

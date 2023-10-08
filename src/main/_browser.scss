@@ -1,0 +1,21 @@
+@import "../variables";
+
+#browser {
+  padding: 0 $measure $measure $measure;
+  background-color: $color-background;
+
+  #appcontent {
+    border-radius: $measure;
+    overflow: hidden;
+  }
+}
+
+:root[sizemode="fullscreen"] {
+  #browser {
+    padding: 0;
+
+    #appcontent {
+      border-radius: 0;
+    }
+  }
+}

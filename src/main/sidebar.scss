@@ -1,0 +1,15 @@
+@import "../variables";
+
+#sidebar-box {
+  background-color: transparent !important;
+
+  #sidebar-header {
+    border-bottom: none !important;
+  }
+}
+
+#sidebar-splitter {
+  background: transparent !important;
+  width: $measure !important;
+  border: none !important;
+}
