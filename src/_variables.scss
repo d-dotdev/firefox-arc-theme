@@ -15,11 +15,12 @@ $color-light-6: #ffffff;
 $theme: (
   --theme-background: $color-dark-2,
   --theme-surface: $color-dark-3,
-  --theme-search-bar: $color-dark-5,
   --theme-shadow: $color-dark-1,
   --theme-text: $color-light-4,
-  --theme-text-link-indicator: $color-light-6,
   --theme-border: $color-light-1,
+  --theme-search-bar: $color-dark-5,
+  --theme-link-indicator-text: $color-light-6,
+  --theme-link-indicator-border: $color-dark-6,
 );
 
 $--spacing: 8px;
