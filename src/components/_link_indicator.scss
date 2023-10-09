@@ -1,0 +1,11 @@
+@import "../variables";
+
+#statuspanel-label {
+  margin: var(--spacing) !important;
+  padding: 4px 8px !important;
+  border: 2px solid var(--theme-border) !important;
+  border-radius: 100px !important;
+  background-color: var(--theme-background) !important;
+  color: var(--theme-text-lighter) !important;
+  font-size: 14px;
+}

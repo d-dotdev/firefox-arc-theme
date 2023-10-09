@@ -3,4 +3,15 @@
 @use "main/browser";
 
 @use "components/dialog";
-@use "components/url_widget";
+@use "components/link_indicator";
+
+@import "variables";
+
+:root {
+  --spacing: #{$--spacing};
+  --rounding: #{$--rounding};
+
+  @each $key, $value in $theme {
+    #{$key}: $value;
+  }
+}

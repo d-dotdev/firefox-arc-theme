@@ -1,13 +1,13 @@
 @import "../variables";
 
 #browser {
-  padding: 0 $spacing $spacing $spacing;
-  background-color: $color-dark-2;
+  padding: 0 var(--spacing) var(--spacing) var(--spacing);
+  background-color: var(--theme-background);
 
   #appcontent {
-    border-radius: $rounding;
+    border-radius: var(--rounding);
     overflow: hidden;
-    box-shadow: 0 0 $spacing 1px $color-dark-1;
+    box-shadow: 0 0 var(--spacing) 1px var(--theme-shadow);
   }
 }
 
