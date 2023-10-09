@@ -1,12 +1,12 @@
 @import "../variables";
 
 #commonDialogWindow {
-  background-color: $color-background !important;
+  background-color: $color-dark-2 !important;
   padding: 4px;
 }
 
 #commonDialog {
-  background-color: $color-background-secondary;
+  background-color: $color-dark-3;
   border-radius: 4px;
 }
 

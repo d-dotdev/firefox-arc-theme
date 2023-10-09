@@ -1,9 +1,10 @@
 @import "../variables";
 
 #statuspanel-label {
-  margin: calc($spacing / 2) !important;
+  margin: $spacing !important;
   padding: 4px 8px !important;
-  border: 2px solid $color-background-contrast !important;
+  border: 2px solid $color-light-1 !important;
   border-radius: 100px !important;
-  background-color: $color-background !important;
+  background-color: $color-dark-3 !important;
+  color: $color-light-6 !important;
 }

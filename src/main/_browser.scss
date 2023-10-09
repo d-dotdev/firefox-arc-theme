@@ -2,11 +2,12 @@
 
 #browser {
   padding: 0 $spacing $spacing $spacing;
-  background-color: $color-background;
+  background-color: $color-dark-2;
 
   #appcontent {
     border-radius: $rounding;
     overflow: hidden;
+    box-shadow: 0 0 $spacing 1px $color-dark-1;
   }
 }
 
