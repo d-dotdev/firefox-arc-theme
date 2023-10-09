@@ -43,6 +43,10 @@
       height: calc($spacing / 2);
     }
   }
+
+  &:focus-within > * {
+    transition: none;
+  }
 }
 
 $navbar-height: #{52px - $spacing};
