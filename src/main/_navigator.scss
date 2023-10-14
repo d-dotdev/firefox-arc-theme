@@ -9,6 +9,7 @@
   --toolbar-color: var(--theme-text);
 
   // basic style and closed by default
+  position: relative;
   height: 0;
   border: none !important;
   padding: calc(var(--spacing) / 2) 0;
@@ -40,7 +41,7 @@
     }
 
     &::after {
-      height: calc(var(--spacing) / 2);
+      top: 100%;
     }
   }
 
