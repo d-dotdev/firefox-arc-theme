@@ -6,6 +6,10 @@
   #sidebar-header {
     border-bottom: none !important;
   }
+
+  &[sidebarcommand*="addon-sidebar-action"] #sidebar-header {
+    display: none;
+  }
 }
 
 #sidebar-splitter {
