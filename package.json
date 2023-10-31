@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "compile": "sass src/index.scss userChrome.css --no-source-map",
-    "update:linux": "bun compile && cp userChrome.css ~/.mozilla/firefox/*.default/chrome/"
+    "update:linux": "userpath=~/.mozilla/firefox/$(grep 'Path' ~/.mozilla/firefox/profiles.ini | cut -d= -f2); bun compile && mkdir $userpath/chrome/ && cp userChrome.css $userpath/chrome/"
   },
   "devDependencies": {
     "sass": "^1.69.0"
